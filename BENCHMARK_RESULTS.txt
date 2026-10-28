@@ -1,0 +1,79 @@
+Runtime: OpenJDK 64-Bit Server VM 21.0.12.1; OS: Windows 11 amd64; available processors: 8; max heap: 536,870,912 bytes
+Loaded corners.pdb: 88,179,840 entries, max distance 11
+Loaded edgesA.pdb: 3,041,280 entries, max distance 9
+Loaded edgesB.pdb: 3,041,280 entries, max distance 9
+PDB initialization: 0.317 s
+
+Scramble: R U F
+Metric: Face-Turn Metric (R, R' and R2 each cost 1)
+Algorithm: Optimal IDA* + Pattern Databases
+Solution: F' U' R'
+Optimal solution length: 3
+Optimal: yes
+Verified: yes
+Nodes visited: 25
+Nodes pruned: 24
+Search time: 1 ms
+Initial heuristic: 3
+Iterations/layers: 1
+
+Scramble: R U F2 L D B'
+Metric: Face-Turn Metric (R, R' and R2 each cost 1)
+Algorithm: Optimal IDA* + Pattern Databases
+Solution: B D' L' F2 U' R'
+Optimal solution length: 6
+Optimal: yes
+Verified: yes
+Nodes visited: 46
+Nodes pruned: 51
+Search time: 0 ms
+Initial heuristic: 6
+Iterations/layers: 1
+
+Scramble: R U2 F' L D B2 R' U F2 D'
+Metric: Face-Turn Metric (R, R' and R2 each cost 1)
+Algorithm: Optimal IDA* + Pattern Databases
+Solution: D F2 U' R B2 D' L' F U2 R'
+Optimal solution length: 10
+Optimal: yes
+Verified: yes
+Nodes visited: 297
+Nodes pruned: 368
+Search time: 1 ms
+Initial heuristic: 10
+Iterations/layers: 1
+
+Scramble: R U2 F' L D B2 R' U F2 D' L2 B
+Metric: Face-Turn Metric (R, R' and R2 each cost 1)
+Algorithm: Optimal IDA* + Pattern Databases
+Solution: B' L2 D F2 U' R B2 D' L' F U2 R'
+Optimal solution length: 12
+Optimal: yes
+Verified: yes
+Nodes visited: 683355
+Nodes pruned: 869708
+Search time: 225 ms
+Initial heuristic: 8
+Iterations/layers: 5
+
+Scramble: R U2 F' L D B2 R' U F2 D' L2 B U' R2
+Metric: Face-Turn Metric (R, R' and R2 each cost 1)
+Algorithm: Optimal IDA* + Pattern Databases
+Search limit reached
+Optimal: no solution returned
+Nodes visited: 5000000
+Nodes pruned: 6362051
+Search time: 1146 ms
+Initial heuristic: 9
+Iterations/layers: 5
+
+Scramble: R U2 F' L D B2 R' U F2 D' L2 B U' R2 F D2 L' B' U2 R
+Metric: Face-Turn Metric (R, R' and R2 each cost 1)
+Algorithm: Optimal IDA* + Pattern Databases
+Search limit reached
+Optimal: no solution returned
+Nodes visited: 5000000
+Nodes pruned: 6352708
+Search time: 1096 ms
+Initial heuristic: 10
+Iterations/layers: 4

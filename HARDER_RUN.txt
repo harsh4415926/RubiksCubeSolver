@@ -1,0 +1,15 @@
+Loaded corners.pdb: 88,179,840 entries, max distance 11
+Loaded edgesA.pdb: 3,041,280 entries, max distance 9
+Loaded edgesB.pdb: 3,041,280 entries, max distance 9
+PDB initialization: 0.313 s
+
+Scramble: R U2 F' L D B2 R' U F2 D' L2 B U' R2
+Metric: Face-Turn Metric (R, R' and R2 each cost 1)
+Algorithm: Optimal IDA* + Pattern Databases
+Search limit reached
+Optimal: no solution returned
+Nodes visited: 100000000
+Nodes pruned: 127302631
+Search time: 19946 ms
+Initial heuristic: 9
+Iterations/layers: 6

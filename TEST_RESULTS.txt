@@ -1,0 +1,28 @@
+Cube/move/parser tests passed, including independent sticker oracle.
+Coordinate roundtrip tests passed.
+Generating test-cycle: 7 bytes
+  depth 1: 3 / 7 states (0.0 s)
+  depth 2: 5 / 7 states (0.0 s)
+  depth 3: 7 / 7 states (0.0 s)
+Loaded tiny.pdb: 7 entries, max distance 3
+Rebuilding incompatible/incomplete cache tiny.pdb: Incomplete header/payload
+Generating test-cycle: 7 bytes
+  depth 1: 3 / 7 states (0.0 s)
+  depth 2: 5 / 7 states (0.0 s)
+  depth 3: 7 / 7 states (0.0 s)
+Rebuilding incompatible/incomplete cache tiny.pdb: Header mismatch
+Generating different-identity: 7 bytes
+  depth 1: 3 / 7 states (0.0 s)
+  depth 2: 5 / 7 states (0.0 s)
+  depth 3: 7 / 7 states (0.0 s)
+Loaded corners.pdb: 88,179,840 entries, max distance 11
+Loaded edgesA.pdb: 3,041,280 entries, max distance 9
+Loaded edgesB.pdb: 3,041,280 entries, max distance 9
+PDB initialization: 0.294 s
+PDB goal/transition/consistency tests passed.
+Replay passed: R U F -> 3 moves, 25 nodes, 0 ms
+Replay passed: R U F2 L D B' -> 6 moves, 46 nodes, 0 ms
+Replay passed: R U2 F' L D B2 R' U F2 D' -> 10 moves, 297 nodes, 0 ms
+Replay passed: R U2 F' L D B2 R' U F2 D' L2 B -> 12 moves, 683,355 nodes, 192 ms
+BFS/IDA* equal lengths on 444 deterministic shallow cases.
+PASS: 217,136 checks in 0.910 s

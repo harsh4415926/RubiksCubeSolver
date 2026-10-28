@@ -1,0 +1,90 @@
+
+Scramble: R U F
+Metric: Face-Turn Metric (R, R' and R2 each cost 1)
+Algorithm: BFS
+Solution: F' U' R'
+Optimal solution length: 3
+Optimal: yes
+Verified: yes
+Nodes visited: 198
+Nodes pruned: 915
+Search time: 4 ms
+Initial heuristic: 0
+Iterations/layers: 1
+
+Scramble: R U F
+Metric: Face-Turn Metric (R, R' and R2 each cost 1)
+Algorithm: Bidirectional BFS
+Solution: F' U' R'
+Optimal solution length: 3
+Optimal: yes
+Verified: yes
+Nodes visited: 20
+Nodes pruned: 81
+Search time: 1 ms
+Initial heuristic: 0
+Iterations/layers: 3
+
+Scramble: R U F
+Metric: Face-Turn Metric (R, R' and R2 each cost 1)
+Algorithm: IDDFS
+Solution: F' U' R'
+Optimal solution length: 3
+Optimal: yes
+Verified: yes
+Nodes visited: 2857
+Nodes pruned: 3614
+Search time: 2 ms
+Initial heuristic: 0
+Iterations/layers: 4
+Loaded corners.pdb: 88,179,840 entries, max distance 11
+Loaded edgesA.pdb: 3,041,280 entries, max distance 9
+Loaded edgesB.pdb: 3,041,280 entries, max distance 9
+PDB initialization: 0.358 s
+
+Scramble: R U F
+Metric: Face-Turn Metric (R, R' and R2 each cost 1)
+Algorithm: Optimal IDA* + Pattern Databases
+Solution: F' U' R'
+Optimal solution length: 3
+Optimal: yes
+Verified: yes
+Nodes visited: 25
+Nodes pruned: 24
+Search time: 0 ms
+Initial heuristic: 3
+Iterations/layers: 1
+Loaded corners.pdb: 88,179,840 entries, max distance 11
+Loaded edgesA.pdb: 3,041,280 entries, max distance 9
+Loaded edgesB.pdb: 3,041,280 entries, max distance 9
+PDB initialization: 0.374 s
+
+Scramble: R U R' U' F2
+Metric: Face-Turn Metric (R, R' and R2 each cost 1)
+Algorithm: Optimal IDA* + Pattern Databases
+Solution: F2 U R U' R'
+Optimal solution length: 5
+Optimal: yes
+Verified: yes
+Nodes visited: 49
+Nodes pruned: 51
+Search time: 0 ms
+Initial heuristic: 5
+Iterations/layers: 1
+CubeTrace -- globally shortest 3x3 solutions under FTM
+javac *.java
+java -Xmx512m Main "R U R' U' F2"
+java Main "R U F" --algorithm bibfs
+Options:
+  --algorithm ida|bfs|bibfs|iddfs  (default: ida)
+  --timeout-ms N                  (default: 60000, search only)
+  --max-nodes N                   (default: 10000000)
+  --max-states N                  (default: 100000, BFS combined map limit)
+  --cache PATH                    (default: .cache)
+  --build-pdb                     generate/load databases and exit
+Zero disables a limit. BFS memory can grow very quickly without limits.
+First IDA* run builds about 90 MiB of cached distances.
+A limit returns no solution and makes no impossibility claim.
+
+Input error: Invalid move: R3. Use U D L R F B, optionally followed by ' or 2.
+Run java Main --help for usage.
